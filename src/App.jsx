@@ -6,6 +6,7 @@ import Features from "./pages/Features"
 import Reviews from './pages/Reviews'
 import Stories from './pages/Stories'
 import Card from "./components/card"
+import Logo from "./icons/logo"
 function App(){
     return(
        <>
@@ -18,7 +19,8 @@ function App(){
                 <Route path="/Stories" element={<Stories></Stories>}></Route>
             </Routes>
           </BrowserRouter> */}
-          <Card rating="2" review="Withing one month of chating i found my true love" name="Vaidant Sharma" place="Vit vellore"></Card>
+          <Card type="testimonial" rating="2" review="Withing one month of chating i found my true love" name="Vaidant Sharma" place="Vit vellore"></Card>
+          <Card photo={<Logo></Logo>} type="about" heading="This is heading" description="This is the description"></Card>
        </>
     )
 }
