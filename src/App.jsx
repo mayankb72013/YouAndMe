@@ -18,7 +18,7 @@ function App(){
                 <Route path="/Stories" element={<Stories></Stories>}></Route>
             </Routes>
           </BrowserRouter> */}
-          <Card></Card>
+          <Card rating="2" review="Withing one month of chating i found my true love" name="Vaidant Sharma" place="Vit vellore"></Card>
        </>
     )
 }

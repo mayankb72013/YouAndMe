@@ -22,7 +22,7 @@ function Home() {
                         </div>
                     </nav>
                     <section className="h-3/4 gap-8 flex flex-col justify-center items-center z-20">
-                        <div className="flex flex-col items-center font-sans text-white text-8xl">
+                        <div className="flex flex-col font-bold items-center font-sans text-white text-8xl">
                             <div>Find Your Forever</div>
                             <div>Love</div>
                         </div>
@@ -31,7 +31,7 @@ function Home() {
                         </div>
                     </section>
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-80"></div>
+                <div className="absolute inset-0" style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 0.3) 100%)"}}></div>
                 <div className="bg-[url('src/images/background.png')] bg-cover bg-center h-screen"></div>
             </div>
         </>
